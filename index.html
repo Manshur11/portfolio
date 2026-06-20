@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Manshur11 — Portfolio</title>
+  <meta name="description" content="Portfolio of Manshur11" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.svg" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#">Manshur11</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <img class="avatar" src="https://github.com/Manshur11.png" alt="Avatar" />
+      <h1>Hello — I'm Manshur</h1>
+      <p class="lead">I build things for the web. Developer • Problem solver • Lifelong learner.</p>
+      <p class="cta">
+        <a class="btn" href="#projects">See my work</a>
+        <a class="btn ghost" href="https://github.com/Manshur11" target="_blank" rel="noopener">GitHub</a>
+      </p>
+    </section>
+
+    <section class="about" id="about">
+      <h2>About</h2>
+      <p>Short bio goes here. Replace this text with a few sentences about your background, skills, and interests.</p>
+      <ul class="skills">
+        <li>HTML & CSS</li>
+        <li>JavaScript / React</li>
+        <li>Node / Express</li>
+      </ul>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <article class="project">
+          <h3>Project One</h3>
+          <p>Short description of project one. Link to demo or repo below.</p>
+          <p><a href="#" target="_blank" rel="noopener">View repo</a> · <a href="#" target="_blank" rel="noopener">Live demo</a></p>
+        </article>
+
+        <article class="project">
+          <h3>Project Two</h3>
+          <p>Short description of project two. Replace with your actual projects.</p>
+          <p><a href="#" target="_blank" rel="noopener">View repo</a></p>
+        </article>
+
+        <!-- Add more projects here -->
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Contact</h2>
+      <p>Want to work together? Email me at <a href="mailto:you@example.com">you@example.com</a> or connect on <a href="https://github.com/Manshur11" target="_blank" rel="noopener">GitHub</a>.</p>
+
+      <form id="contact-form">
+        <label>
+          Your email
+          <input type="email" name="email" required placeholder="name@example.com"/>
+        </label>
+        <label>
+          Message
+          <textarea name="message" required placeholder="Hi — I'd like to talk about..."></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+        <p class="note">This form opens your mail client. To enable serverless forms, I can add a Netlify/Vercel function or Formspree integration.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Manshur11 · <a href="https://github.com/Manshur11" target="_blank" rel="noopener">GitHub</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
